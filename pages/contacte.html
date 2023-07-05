@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>E-Sport</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        E-Sport
+        <i class="fas fa-running logo"></i>
+      </a>
+
+      <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+      <aside id="side-menu">
+        <a href="../index.html">Home <i class="fa-solid fa-house"></i></a>
+        <a href="evenimente.html"
+          >Evenimente <i class="fa-solid fa-calendar-days"></i
+        ></a>
+        <a href="contacte.html"
+          >Contacte <i class="fa-solid fa-address-book"></i
+        ></a>
+      </aside>
+
+      <main>
+        <h2 class="title">Contacte</h2>
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Contactează-ne daca:</h3>
+
+            <ul class="contact-list">
+              <li>Doresti sa adaugi un eveniment</li>
+              <li>Cauti un loc de voluntariat</li>
+              <li>Doresti sa gasesti un cerc de sport</li>
+              <li>Ai sugestii/propuneri</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+            <h3>Date de Contact:</h3>
+
+            <ul class="contact-list">
+              <li><b>Adresa: </b> str.Studentilor 5</li>
+              <li><b>Telefon: </b> 076 768 584</li>
+              <li><b>Ore de Lucru: </b> 10:00 - 18:00</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-50">
+            <iframe
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.959322197326!2d28.868029563194103!3d47.06064828664035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ce08a10e683%3A0x4d92abaf28198b6!2zU3RyYWRhIFN0dWRlbsibaWxvciwgQ2hpxZ9pbsSDdSwg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2s!4v1688479981770!5m2!1sru!2s"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-50">
+            <div class="contact-form">
+              <form>
+                <h3 class="centered">Lasa un mesaj</h3>
+                <input type="text" placeholder="Nume" required />
+                <input type="email" placeholder="email" required />
+                <textarea placeholder="mesaj" rows="3" required></textarea>
+                <input type="submit" value="transmite" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
